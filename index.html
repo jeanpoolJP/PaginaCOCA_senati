@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Página Web</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #005843; padding: 15px;">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="Logo" height="40">
+            </a>
+
+            <!-- Botón de menú en pantallas pequeñas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Enlaces de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" data-section="navbar" data-value="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" data-section="navbar" data-value="about_us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" data-section="navbar" data-value="our_team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" data-section="navbar" data-value="pricing">Pricing</a>
+                    </li>
+                </ul>
+
+                <!-- Sección de Login y Register -->
+                <div class="d-flex align-items-center">
+                    <a href="#" class="text-white text-decoration-none me-3" data-section="navbar"
+                        data-value="login">Login</a>
+                    <span class="text-white">|</span>
+                    <button class="btn btn-primary ms-3" data-section="navbar" data-value="register"
+                        style="background-color: #73E5FF; color: #005843; border-radius: 50px;">
+                        Register
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Sección Hero -->
+    <section class="hero text-center text-white">
+        <div class="container" data-aos="zoom-in-left">
+            <button class="hero-tag" data-section="hero" data-value="tag">Chat software</button>
+            <h1 class="hero-title" data-section="hero" data-value="title">Provide real-time <br> support through chat
+                <br> for your customers
+            </h1>
+            <p class="hero-text" data-section="hero" data-value="text">Great software that allows you to chat from any
+                <br> place at any time without any
+                interruption
+            </p>
+            <div class="hero-buttons">
+                <button class="hero-btn-primary" onclick="location.href='pages/chat.html'" data-section="hero"
+                    data-value="btn_chat_now">Chatting Now</button>
+                <button class="hero-btn-secondary" data-section="hero" data-value="btn_learn_more">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="hero-contact">
+        <div class="container d-flex justify-content-between">
+            <p data-section="hero_contact" data-value="phone" data-aos="zoom-in-right">
+                📞 +182 (283) 343-23-10</p>
+            <p data-section="hero_contact" data-value="scroll_down" data-aos="zoom-in-left">
+                🖱️ SCROLL DOWN</p>
+        </div>
+    </section>
+
+
+    <!-- Sección de contenido - Caracteristicas -->
+    <div class="container-lg">
+        <div class="row" data-aos="fade-up">
+            <div class="col-12 p-3 text-center bg-white">
+                <h4 data-section="features" data-value="integration_title"><br>Effortless integration with your
+                    preferred tools</h4>
+                <img style="width: 650px;" src="assets/img/Logos-grupo.png" alt="">
+                <br>
+            </div>
+        </div>
+        <br>
+
+        <div class="row align-items-center">
+            <div class="col-md-7 p-3 bg-white" data-aos="fade-right">
+                <h1 data-section="features" data-value="multi_channel_title">Access a unified multi- <br> channel
+                    messaging solution in one place</h1>
+                <p class="text-secondary" data-section="features" data-value="multi_channel_text">
+                    Enable your customers to communicate effortlessly through Live Chat,
+                    Facebook, Telegram, and numerous other tools, with prompt responses from Coca.
+                </p><br>
+                <p data-section="features" data-value="real_time_chat">✅ Engage in real-time chats with visitors,
+                    prospects, and customers.</p>
+                <p data-section="features" data-value="scale_conversations">✅ Easily scale personalized conversations
+                    without limitations.</p>
+                <p data-section="features" data-value="contextual_chat">✅ Participate in contextual chat conversations
+                    on the go.</p>
+            </div>
+            <div class="col-md-5 p-3 bg-white text-center" data-aos="flip-right"><br><br><br>
+                <img src="assets/img/chats.png" alt="Chats" class="img-fluid">
+            </div>
+        </div>
+        <br><br><br><br>
+
+        <div class="row align-items-center" data-aos="zoom-in-left">
+            <div class="col-md-7 p-3 bg-white">
+                <h1 data-section="features" data-value="video_chat_title">
+                    Craft a communication strategy using live video chat</h1>
+            </div>
+            <div class="col-md-5 p-4 bg-white">
+                <p class="text-secondary" data-section="features" data-value="video_chat_text">
+                    Video conferencing enhances productivity and fosters collaboration,
+                    making it a versatile tool for achieving these goals.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido video -->
+    <div class="container-fluid p-0 position-relative">
+        <!-- Fondo verde en la parte inferior -->
+        <div class="position-absolute w-100 bottom-0" style="height: 50%; background-color: #005843;"></div>
+
+        <!-- Contenedor centrado con la imagen -->
+        <div class="container d-flex justify-content-center align-items-center py-5 position-relative"
+            data-aos="zoom-in-left">
+            <div class="rounded-3 overflow-hidden shadow-lg" style="max-width: 800px; width: 90%;">
+                <div class="video-container">
+                    <video id="myVideo" class="video" onclick="togglePlay()">
+                        <source src="assets/video/video1.mp4" type="video/mp4">
+                    </video>
+                    <div id="playButton" class="play-button" onclick="playVideo()">
+                        <i class="fa fa-play"></i>
+                    </div>
+                </div>                             
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: #005843; color: white;">
+        <div class="container-lg">
+            <div class="row d-flex align-items-center py-5">
+                <!-- Columna 1 -->
+                <div class="col-md-6" data-aos="fade-right">
+                    <h1 data-section="orders_section" data-value="title">Get direct orders from <br>your customers</h1>
+                    <p data-section="orders_section" data-value="description">
+                        Create custom landing pages with Rare blocks that convert more visitors than any website. With
+                        lots of unique blocks, easily build a page. There are many variations of passages available.
+                    </p>
+                    <div class="d-flex gap-4">
+                        <div class="d-flex align-items-center gap-2">
+                            <h1 class="mb-0">9.3K+</h1>
+                            <p class="mb-0" data-section="orders_section" data-value="websites_powering">
+                                Website's Powering</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <h1 class="mb-0">8M+</h1>
+                            <p class="mb-0" data-section="orders_section" data-value="chats_last_year">
+                                Chats in Last 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Columna 2 -->
+                <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="flip-right">
+                    <img src="assets/img/notificaciones.png" alt="Notificaciones" class="img-fluid rounded-3 p-3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <br><br>
+        <div class="row">
+            <div class="col-md-6 p-3" style="background-color: white;" data-aos="flip-left">
+                <img style="width: 400px;" src="assets/img/chat2.png" alt="">
+            </div>
+            <div class="col-md-6 p-3" style="background-color: white;" data-aos="zoom-in-left">
+                <h1 data-section="interface_section" data-value="title">An ideal interface for swift, code-free support
+                </h1><br>
+                <p style="color: #7F7F7F;" data-section="interface_section" data-value="description_1">
+                    The Visual Builder enables you to effortlessly create a top-notch AI chatbot with no coding
+                    required.
+                    Drag and drop conversational elements, and instantly test them to craft engaging client
+                    interactions.
+                </p>
+                <p style="color: #7F7F7F;" data-section="interface_section" data-value="description_2">
+                    Experience a modern messaging platform that seamlessly integrates everything essential
+                    for effective support, sales, and engagement, all within a user-friendly interface.
+                </p>
+                <button
+                    style="color: white; background-color: #005843; border-radius: 20px; border: none; padding: 10px 20px;"
+                    data-section="interface_section" data-value="button">
+                    Learn More
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sección de testimonios -->
+    <div class="container my-5" data-aos="zoom-in-left">
+        <div class="text-center">
+            <h1 data-section="testimonials_section" data-value="title">Give our users a great experience</h1>
+            <p data-section="testimonials_section" data-value="description">Community building is a field of practices
+                directed toward the creation or enhancement of community among
+                individuals.</p>
+        </div>
+
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <!-- Testimonio 1 -->
+                        <div class="col-md-4">
+                            <div class="card p-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/perfil1.jpg" class="rounded-circle" width="60" height="60"
+                                        alt="User">
+                                    <div class="ms-3">
+                                        <h5>Jhonatan Albert</h5>
+                                        <p class="text-muted mb-0">CEO, GoTick</p>
+                                    </div>
+                                </div>
+                                <p class="mt-3" data-section="testimonials_section" data-value="quote">
+                                    "They are able to help a startup like mine scale and are very
+                                    responsive."</p>
+                                <div class="text-warning">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <!-- Testimonio 2 -->
+                        <div class="col-md-4">
+                            <div class="card p-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/perfil2.jpg" class="rounded-circle" width="60" height="60"
+                                        alt="User">
+                                    <div class="ms-3">
+                                        <h5>Emily Smith</h5>
+                                        <p class="text-muted mb-0">Owner, Code Dev</p>
+                                    </div>
+                                </div>
+                                <p class="mt-3" data-section="testimonials_section" data-value="quote2">
+                                    "Amazing platform that boosted our engagement rates!"</p>
+                                <div class="text-warning">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <!-- Testimonio 3 -->
+                        <div class="col-md-4">
+                            <div class="card p-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/perfil1.jpg" class="rounded-circle" width="60" height="60"
+                                        alt="User">
+                                    <div class="ms-3">
+                                        <h5>Michael Brown</h5>
+                                        <p class="text-muted mb-0">Marketing & Office </p>
+                                    </div>
+                                </div>
+                                <p class="mt-3" data-section="testimonials_section" data-value="quote">
+                                    "They are able to help a startup like mine scale and are very
+                                    responsive."</p>
+                                <div class="text-warning">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <!-- Testimonio 4 -->
+                        <div class="col-md-4">
+                            <div class="card p-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/perfil2.jpg" class="rounded-circle" width="60" height="60"
+                                        alt="User">
+                                    <div class="ms-3">
+                                        <h5>Sarah Johnson</h5>
+                                        <p class="text-muted mb-0">CTO, Innovate</p>
+                                    </div>
+                                </div>
+                                <p class="mt-3" data-section="testimonials_section" data-value="quote2">
+                                    "Amazing platform that boosted our engagement rates!"</p>
+                                <div class="text-warning">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <!-- Testimonio 5 -->
+                        <div class="col-md-4">
+                            <div class="card p-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/perfil1.jpg" class="rounded-circle" width="60" height="60"
+                                        alt="User">
+                                    <div class="ms-3">
+                                        <h5>David Lee</h5>
+                                        <p class="text-muted mb-0">Founder, Techverse</p>
+                                    </div>
+                                </div>
+                                <p class="mt-3" data-section="testimonials_section" data-value="quote">
+                                    "They are able to help a startup like mine scale and are very
+                                    responsive."</p>
+                                <div class="text-warning">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                        <!-- Testimonio 6 -->
+                        <div class="col-md-4">
+                            <div class="card p-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/img/perfil2.jpg" class="rounded-circle" width="60" height="60"
+                                        alt="User">
+                                    <div class="ms-3">
+                                        <h5>Linda Williams</h5>
+                                        <p class="text-muted mb-0">Operations Manager</p>
+                                    </div>
+                                </div>
+                                <p class="mt-3" data-section="testimonials_section" data-value="quote2">
+                                    "Amazing platform that boosted our engagement rates!"</p>
+                                <div class="text-warning">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles del carrusel -->
+            <div class="carousel-controls mt-3">
+                <button class="carousel-control-custom prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-custom next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Precios y planes -->
+    <div class="row justify-content-center gx-4">
+        <!-- Plan Silver -->
+        <div class="col-lg-3 col-md-4 p-4 bg-white rounded shadow mt-4 mx-3 pricing-column" 
+            data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <br><br>
+            <h4 class="text-secondary">SILVER</h4>
+            <h2 style="display: inline;">$50</h2>
+            <span class="fs-6" data-section="pricing_section" data-value="price1">/month</span>
+            <ul class="list-unstyled text-start">
+                <li data-section="pricing_section" data-value="silver_des1">✔ No Discount</li>
+                <li data-section="pricing_section" data-value="silver_des2">✔ Basic Support</li>
+                <li data-section="pricing_section" data-value="silver_des3">✔ Ads Banner Free</li>
+                <li data-section="pricing_section" data-value="silver_des4">✔ Design Style</li>
+                <li data-section="pricing_section" data-value="silver_des5">✔ Component Library</li>
+                <li data-section="pricing_section" data-value="silver_des6">✔ All limited links</li>
+                <li data-section="pricing_section" data-value="silver_des7">✔ Own analytics platform</li>
+                <li data-section="pricing_section" data-value="silver_des8">✔ Chat support</li>
+                <li data-section="pricing_section" data-value="silver_des9">✔ Optimize hashtags</li>
+                <li data-section="pricing_section" data-value="silver_des10">✔ Unlimited users</li>
+            </ul>
+            <button class="btn btn-success" data-section="pricing_section" data-value="button">
+                Choose plan</button>
+        </div>
+    
+        <!-- Plan Gold (Más Popular) -->
+        <div class="col-lg-4 col-md-5 p-5 rounded shadow d-flex flex-column align-items-center mx-3 pricing-column" 
+            data-aos="zoom-out-down"
+            style="background-color: #005843; color: white; min-height: 550px;">
+            <h4>GOLD</h4>
+    
+            <!-- Contenedor flexible para precio -->
+            <div class="d-flex align-items-center">
+                <h2 style="margin: 0;">$100</h2>
+                <span class="fs-6 ms-1" data-section="pricing_section" data-value="price2">/month</span>
+            </div>
+    
+            <hr style="border-color: rgba(255,255,255,0.5); width: 100%;">
+            <ul class="list-unstyled text-start">
+                <li data-section="pricing_section" data-value="silver_des1">✔ No Discount</li>
+                <li data-section="pricing_section" data-value="silver_des2">✔ Basic Support</li>
+                <li data-section="pricing_section" data-value="silver_des3">✔ Ads Banner Free</li>
+                <li data-section="pricing_section" data-value="silver_des4">✔ Design Style</li>
+                <li data-section="pricing_section" data-value="silver_des5">✔ Component Library</li>
+                <li data-section="pricing_section" data-value="silver_des6">✔ All limited links</li>
+                <li data-section="pricing_section" data-value="silver_des7">✔ Own analytics platform</li>
+                <li data-section="pricing_section" data-value="silver_des8">✔ Chat support</li>
+                <li data-section="pricing_section" data-value="silver_des9">✔ Optimize hashtags</li>
+                <li data-section="pricing_section" data-value="silver_des10">✔ Unlimited users</li>
+            </ul>
+            <button style="background-color: #FFE51D; color: #005843;" class="btn btn-warning"
+                data-section="pricing_section" data-value="button">
+                <b>Choose plan</b>
+            </button>
+        </div>
+    
+        <!-- Plan Premium -->
+        <div class="col-lg-3 col-md-4 p-4 bg-white rounded shadow mt-4 mx-3 pricing-column" 
+            data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <br><br>
+            <h4 class="text-secondary">PREMIUM</h4>
+            <h2 style="display: inline;">$150</h2>
+            <span class="fs-6" data-section="pricing_section" data-value="price3">/month</span>
+            <ul class="list-unstyled text-start">
+                <li data-section="pricing_section" data-value="silver_des1">✔ No Discount</li>
+                <li data-section="pricing_section" data-value="silver_des2">✔ Basic Support</li>
+                <li data-section="pricing_section" data-value="silver_des3">✔ Ads Banner Free</li>
+                <li data-section="pricing_section" data-value="silver_des4">✔ Design Style</li>
+                <li data-section="pricing_section" data-value="silver_des5">✔ Component Library</li>
+                <li data-section="pricing_section" data-value="silver_des6">✔ All limited links</li>
+                <li data-section="pricing_section" data-value="silver_des7">✔ Own analytics platform</li>
+                <li data-section="pricing_section" data-value="silver_des8">✔ Chat support</li>
+                <li data-section="pricing_section" data-value="silver_des9">✔ Optimize hashtags</li>
+                <li data-section="pricing_section" data-value="silver_des10">✔ Unlimited users</li>
+            </ul>
+            <button class="btn btn-success" data-section="pricing_section" data-value="button">Choose plan</button>
+        </div>
+    </div>
+    
+
+
+    <!-- Llamado a la acción final -->
+    <div class="col-12 p-3 text-center" style="background-color: white;" data-aos="zoom-in-left">
+        <br><br><br><br>
+        <h1 data-section="signup_section" data-value="title">
+            Sign up for your free trial today and <br> incorporate live chat on your website.</h1>
+        <p data-section="signup_section" data-value="description_1">Unlock the Power of real-time customer Engagement:
+            Start Your <br>
+            Free Trial and Integrate Live Chat on Your Website Today!</p>
+        <div>
+            <img src="assets/img/google-play.png" alt="Google Play" style="width: 120px; height: auto; margin: 5px;">
+            <img src="assets/img/app-store.jpg" alt="App Store" style="width: 120px; height: auto; margin: 5px;">
+        </div>
+        <br><br>
+    </div>
+
+
+    <!-- Pie de página -->
+    <footer class="footer text-white" data-aos="fade-right">
+        <div class="container">
+            <!-- Call to Action -->
+            <div class="footer-top d-flex justify-content-between align-items-center flex-wrap">
+                <h1 class="fw-bold" data-section="footer_section" data-value="cta_title">
+                    Are you prepared to <br> collaborate with us?</h1>
+                <button class="footer-btn" data-section="footer_section" data-value="cta_button">
+                    Get Start a Project →</button>
+            </div><br>
+
+            <!-- Contact Info -->
+            <div class="footer-info row justify-content-left mt-4">
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <i class="fas fa-map-marker-alt me-2"></i>
+                    <span>1929, Bancangan, Sambit, Suroboyo, Wakanda</span>
+                </div>
+                <div class="col-md-3 d-flex align-items-center justify-content-center">
+                    <i class="fas fa-envelope me-2"></i>
+                    <span> hello@cocapay.co</span>
+                </div>
+            </div> <br><br><br>
+
+            <!-- Selector de idioma -->
+            <div class="languages d-flex align-items-center mt-3">
+                <p class="mb-0 me-2">Language:</p>
+                <div class="btn-group" role="group">
+                    <button class="lang-button btn btn-white border-white text-white"
+                        data-language="es">Español</button>
+                    <button class="lang-button btn btn-white border-white text-white"
+                        data-language="en">English</button>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <hr class="footer-divider">
+
+            <!-- Copyright & Links -->
+            <div class="footer-bottom d-flex justify-content-between flex-wrap">
+                <span>© Coca Pay by Sans Brothers</span>
+                <div>
+                    <a href="#" class="footer-link" data-section="footer_section" data-value="terms_conditions">Terms &
+                        Conditions</a>
+                    <a href="#" class="footer-link" data-section="footer_section" data-value="privacy_policy">Privacy
+                        Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Script personalizado -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+</body>
+
+</html>

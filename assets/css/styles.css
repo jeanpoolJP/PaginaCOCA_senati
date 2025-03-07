@@ -1,0 +1,182 @@
+.hero {
+    background-color: #005843;
+    padding: 40px 15px;
+}
+
+.hero-tag {
+    background-color: #4C8A7A;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 180px;
+    height: 30px;
+}
+
+.hero-title {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.hero-text {
+    margin: 15px 0;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-btn-primary {
+    color: #005843;
+    background-color: #FFE51D;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.hero-btn-secondary {
+    color: #FFE51D;
+    background-color: #005843;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid #FFE51D;
+}
+
+.hero-contact {
+    background-color: #005843;
+    padding: 15px 0;
+    color: white;
+}
+
+.footer {
+    background-color: #091030;
+    padding: 50px 0;
+}
+
+.footer-top h1 {
+    margin-bottom: 0;
+}
+
+.footer-btn {
+    background-color: #FFE51D;
+    color: #091030;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-btn:hover {
+    background-color: #ffd700;
+}
+
+.footer-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-divider {
+    border-color: rgba(255, 255, 255, 0.2);
+    margin-top: 40px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre botones */
+    margin-top: 20px;
+}
+
+.carousel-control-custom {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #005f40; /* Color verde de tu proyecto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-custom span {
+    filter: invert(1); /* Hace que el ícono sea blanco */
+}
+
+.carousel-control-custom.prev {
+    background-color: white;
+    border: 2px solid #ddd;
+}
+
+.carousel-control-custom.prev span {
+    filter: invert(50%);
+}
+
+.carousel-control-custom:hover {
+    opacity: 0.8;
+}
+
+/* Video */
+.video-container {
+    position: relative;
+    display: inline-block;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+}
+
+.play-button i {
+    font-size: 40px;
+}
+
+.play-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Precios y planes */
+.pricing-column {
+    max-width: 320px; /* Limita el ancho máximo */
+    width: 100%;
+}

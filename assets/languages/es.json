@@ -1,0 +1,81 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about_us": "Sobre Nosotros",
+        "our_team": "Nuestro Equipo",
+        "pricing": "Precios",
+        "login": "Iniciar Sesión",
+        "register": "Registrarse"
+    },
+    "hero": {
+        "tag": "Software de chat",
+        "title": "Brinda soporte en <br>tiempo real a tus clientes <br>mediante chat",
+        "text": "Un gran software que te permite chatear desde cualquier <br> lugar en cualquier momento sin interrupciones",
+        "btn_chat_now": "Chatear ahora",
+        "btn_learn_more": "Saber más"
+    },
+    "hero_contact": {
+        "phone": "📞 +182 (283) 343-23-10",
+        "scroll_down": "🖱️ DESPLAZARSE HACIA ABAJO"
+    },
+    "features": {
+        "integration_title": "<br>Integración sin esfuerzo con tus herramientas preferidas",
+        "multi_channel_title": "Accede a una solución de mensajería multicanal unificada en un solo lugar",
+        "multi_channel_text": "Permite que tus clientes se comuniquen sin esfuerzo a través de Live Chat, Facebook, Telegram y muchas otras herramientas, con respuestas rápidas de Coca.",
+        "real_time_chat": "✅ Chatea en tiempo real con visitantes, prospectos y clientes.",
+        "scale_conversations": "✅ Escala fácilmente conversaciones personalizadas sin limitaciones.",
+        "contextual_chat": "✅ Participa en conversaciones de chat contextuales sobre la marcha.",
+        "video_chat_title": "Diseña una estrategia de comunicación utilizando chat de video en vivo",
+        "video_chat_text": "Las videoconferencias mejoran la productividad y fomentan la colaboración, convirtiéndolas en una herramienta versátil para lograr estos objetivos."
+    },
+    "orders_section": {
+        "title": "Recibe pedidos directos de tus clientes",
+        "description": "Crea páginas de destino personalizadas con Rare blocks que convierten más visitantes que cualquier sitio web. Con muchos bloques únicos, construye fácilmente una página. Hay muchas variaciones de pasajes disponibles.",
+        "websites_powering": "Sitios web en funcionamiento",
+        "chats_last_year": "Chats en el último 2022"
+    },
+    "interface_section": {
+        "title": "Una interfaz ideal para soporte rápido y sin código",
+        "description_1": "El Visual Builder te permite crear fácilmente un chatbot de IA de alta calidad sin necesidad de programación. Arrastra y suelta elementos conversacionales y pruébalos al instante para crear interacciones atractivas con los clientes.",
+        "description_2": "Disfruta de una plataforma de mensajería moderna que integra perfectamente todo lo esencial para soporte, ventas y compromiso, todo dentro de una interfaz fácil de usar.",
+        "button": "Más información"
+    },
+    "testimonials_section": {
+        "title": "Brindemos a nuestros usuarios <br>una gran experiencia",
+        "description": "La construcción de comunidades es un conjunto de prácticas dirigidas a la creación o mejora de una comunidad entre individuos.",
+        "quote": "Son capaces de ayudar a una startup como la mía a crecer y son muy receptivos.",
+        "quote2": "¡Una plataforma increíble que aumentó nuestras tasas de interacción!"
+    },
+    "pricing_section": {
+        "title": "Planes de Precios",
+        "description": "Coca landing page UI Kit no requiere tarjeta de crédito. Todos los planes incluyen una <br>prueba gratuita de 14 días de nuestras funciones Premium.",
+        "most_popular": "MÁS POPULAR",
+        "price1": " /mes",
+        "price2": " /mes",
+        "price3": " /mes",
+        "silver_des1": "✔ Sin descuento",
+        "silver_des2": "✔ Soporte básico",
+        "silver_des3": "✔ Sin anuncios",
+        "silver_des4": "✔ Estilo de diseño",
+        "silver_des5": "✔ Biblioteca de componentes",
+        "silver_des6": "✔ Todos los enlaces limitados",
+        "silver_des7": "✔ Plataforma de análisis propia",
+        "silver_des8": "✔ Soporte por chat",
+        "silver_des9": "✔ Optimización de hashtags",
+        "silver_des10": "✔ Usuarios ilimitados",
+        "button": "Elegir plan"
+    },
+    "signup_section": {
+        "title": "Regístrate hoy para tu prueba gratuita e <br> incorpora chat en vivo en tu sitio web.",
+        "description_1": "Desbloquea el poder del compromiso en tiempo real con los clientes: <br>Comienza tu prueba gratuita e integra chat en vivo en tu sitio web hoy mismo."
+    },
+    "footer_section": {
+        "cta_title": "¿Estás preparado para <br>colaborar con nosotros?",
+        "cta_button": "Iniciar un Proyecto →",
+        "address": "📌 1929, Bancangan, Sambit, Suroboyo, Wakanda",
+        "email": "✉ hello@cocapay.co",
+        "copyright": "© Coca Pay by Sans Brothers",
+        "terms_conditions": "Términos y Condiciones",
+        "privacy_policy": "Política de Privacidad"
+    }
+}
