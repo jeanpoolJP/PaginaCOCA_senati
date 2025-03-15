@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/assets/css/login.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container" style="max-width: 800px; margin: 0 auto;">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="login-container">
+                    <div class="login-header">
+                        <div class="logo">
+                            <i class="bi bi-person-fill text-white"></i>
+                        </div>
+                        <h2>Bienvenido</h2>
+                        <p class="text-muted">Ingresa tus credenciales para acceder</p>
+                    </div>
+                    
+                    <form>
+                        <div class="mb-4">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+                                <label for="floatingInput">Correo electrónico</label>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
+                                <label for="floatingPassword">Contraseña</label>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-4 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Recordarme</label>
+                            <a href="#" class="float-end forgot-password" style="color: #005f40; text-decoration: none;">
+                                ¿Olvidaste tu contraseña?
+                            </a>                            
+                        </div>
+                        
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-lg" style="background-color: #005f40; color: white; border: none;">
+                                Iniciar sesión
+                            </button>
+                        </div>                        
+                        
+                        <div class="divider">
+                            <span>O continúa con</span>
+                        </div>
+                        
+                        <div class="row g-2 mt-2">
+                            <div class="col-6 d-grid">
+                                <button type="button" class="btn btn-outline-secondary">
+                                    <i class="bi bi-google"></i> Google
+                                </button>
+                            </div>
+                            <div class="col-6 d-grid">
+                                <button type="button" class="btn btn-outline-secondary">
+                                    <i class="bi bi-facebook"></i> Facebook
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                    <div class="login-footer">
+                        <p>¿No tienes una cuenta? 
+                            <a href="#" style="color: #005f40; text-decoration: none;">
+                                Regístrate aquí
+                            </a>
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
